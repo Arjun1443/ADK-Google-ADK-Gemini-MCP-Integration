@@ -1,5 +1,12 @@
 # Google ADK, Gemini, and MCP Tool Integration
 
+## Interactive Streamlit app
+
+Explore [streamlit_app/app.py](streamlit_app/app.py), an owner-configured MCP tool inspector. Live tools require an owner-approved HTTPS Streamable HTTP server plus an explicit tool allowlist. No live server was configured or tested.
+
+Run with `python -m streamlit run streamlit_app/app.py` after installing `streamlit_app/requirements.txt`. See [DEPLOYMENT.md](DEPLOYMENT.md) for deployment and access requirements. A live deployment is not yet confirmed.
+
+
 A notebook demonstrating agent setup, conversation sessions, retry settings, and an MCP toolset connection.
 
 ## Why this project matters
